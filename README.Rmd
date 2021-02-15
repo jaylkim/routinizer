@@ -1,0 +1,32 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# routinizer
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of routinizer is to ...
+
+## Installation
+
+You can install the released version of routinizer from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("routinizer")
+```
+
+## Example
+

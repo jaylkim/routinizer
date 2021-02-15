@@ -1,0 +1,17 @@
+Package: routinizer
+Type: Package
+Title: A Project Template for Data Analysis
+Version: 0.0.0.9000
+Authors@R:
+    person("Jay", "Kim", email = "jay.luke.kim@gmail.com", role = c("aut", "cre"))
+Maintainer: Jay Kim <jay.luke.kim@gmail.com>
+Description: This package provides a typical project template for data analysis.
+    We expect it to be useful for Rstudio users.
+    Not only does it make it easier for users to create Makefile and Dockerfile,
+    it also creates folders in a structured way.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
