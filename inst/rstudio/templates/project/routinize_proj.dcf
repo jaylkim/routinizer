@@ -1,6 +1,6 @@
 Binding: routinize_proj
 Title: Data Analysis Project Template
-OpenFiles: Dockerfile, Makefile
+Icon: logo.png
 
 Parameter: check_git
 Widget: CheckboxInput
@@ -8,9 +8,9 @@ Label: Create a git repository
 Default: On
 Position: left
 
-Parameter: check_readme
+Parameter: check_make
 Widget: CheckboxInput
-Label: Create READEME.Rmd
+Label: Use Make
 Default: On
 Position: left
 
@@ -20,8 +20,9 @@ Label: Use Docker
 Default: On
 Position: right
 
-Parameter: check_make
-Widget: CheckboxInput
-Label: Use Make
-Default: On
+Parameter: docker_from
+Widget: TextInput
+Label: Base image
+Default: rocker/verse:latest
 Position: right
+
